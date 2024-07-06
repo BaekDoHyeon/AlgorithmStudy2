@@ -24,7 +24,7 @@ public class thePeakOfMountain {
                     count++;
             }
         }
-        //봉우리 개수 출력
+        //봉우리 개수 출력한다.
         System.out.println(count);
     }
 
