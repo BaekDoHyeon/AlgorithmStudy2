@@ -19,7 +19,7 @@ public class anInterimLeader {
                 arr[i][j] = sc.nextInt();
         }
 
-        //학생 수만큼 반복 -> 마지막 학생은 더이상 뒤에있는 학생이 없으므로 student -1 까지만 반복한다.
+        //학생 수만큼 반복 -> 마지막 학생은 더이상 뒤에있는 학생이 없으므로 student -1 까지만 반복 한다.
         for (int i = 0; i < studentCnt-1; i++) {
             //학생 수만큼 반복 -> 각 학년 마다의 반을 조회하기 위해 -> 조회는 마지막 학생까지 해야하므로 studentCnt 전까지 돌린다.
             for (int j = i+1; j < studentCnt; j++) {
