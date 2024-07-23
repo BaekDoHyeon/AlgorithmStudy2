@@ -44,7 +44,7 @@ public class MaxLenContinuousPartialSeq {
 
     static int solution(int n, int k, int[] arr) {
         //cnt : 0을 1로 바꾼 카운트
-        int result = 0, cnt = 0, lt = 0;
+        int result = 0, cnt = 0, lt  = 0;
 
         //만약 cnt > k 라면 lt를 0이 존재했던 위치로 이동후 1을 다시 0으로 변경 cnt--;
         //result = rt - lt + 1; -> 만약 rt - lt + 1 의 값이 result 의 값보다 크면 그때 값 주입

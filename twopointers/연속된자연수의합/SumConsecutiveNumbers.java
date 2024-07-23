@@ -66,7 +66,6 @@ public class SumConsecutiveNumbers {
             }
         }
 
-
         return count;
     }
 }
