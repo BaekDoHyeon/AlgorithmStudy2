@@ -1,7 +1,6 @@
 package 알고리즘_강의.stackandqueue.queue.공주구하기;
 
 import java.util.ArrayDeque;
-import java.util.PriorityQueue;
 import java.util.Queue;
 import java.util.Scanner;
 
@@ -17,7 +16,6 @@ public class SavingPrincess {
     }
 
     static int solution(int n, int k) {
-        int result = 0;
         Queue<Integer> queue = new ArrayDeque<>();
 
         for (int i = 1; i <= n; i++)
