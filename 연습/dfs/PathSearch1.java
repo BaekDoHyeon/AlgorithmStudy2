@@ -53,7 +53,10 @@ public class PathSearch1 {
     }
 
     static void DFS(int num) {
-        if (num == n) result++;
+        if (num == n) {
+            result++;
+            return;
+        }
 
         for (int i = 1; i <= n; i++) {
             if (arr[num][i] == 1 && ch[i] == 0) { //num -> i 으로 이동할 수 있으면서 i를 지나온 적이 없다면..
