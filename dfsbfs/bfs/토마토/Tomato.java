@@ -58,12 +58,15 @@ public class Tomato {
                 max = Math.max(max, dis[i][j]);
 
         //아직 익지 않은 토마토가 있는지 확인 -> 있다면 noTomato 플래그를 true 로 변경하여 -1 출력 유도
-        for (int i = 0; i < m; i++)
+        for (int i = 0; i < m; i++) {
             for (int j = 0; j < n; j++)
                 if (board[i][j] == 0) {
                     noTomato = true;
-                    return;
+                    break;
                 }
+            if (noTomato) break;
+        }
+
 
         //출력
         if (noTomato) System.out.println(-1);
