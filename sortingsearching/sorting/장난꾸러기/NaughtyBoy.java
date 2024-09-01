@@ -1,5 +1,3 @@
-package 알고리즘_강의.sortingsearching.sorting.장난꾸러기;
-
 import java.lang.reflect.Array;
 import java.util.Arrays;
 import java.util.Scanner;
