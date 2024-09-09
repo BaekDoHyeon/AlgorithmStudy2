@@ -29,6 +29,6 @@ public class thePeakOfMountain {
     }
 
     static boolean thePeakOfMountainCondition(int[][] arr, int i, int j) {
-        return (arr[i][j] > arr[i - 1][j]) && (arr[i][j] > arr[i + 1][j]) && (arr[i][j] > arr[i][j - 1]) && (arr[i][j] > arr[i][j + 1]);
+        return (arr[i][j] > arr[i - 1][j]) && (arr[i][j] > arr[i + 1][j]) && (arr[i][j] > arr[i][j - 1]) && (arr[i][j] > arr[i][j + 1]);;
     }
 }
